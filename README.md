@@ -1,4 +1,4 @@
-# emiliosp ESLint config
+# emiliosp ESLint config 🧹
 
 This package provides an ESLint + Prettier custom rules for React.js JavaScript projects.
 
