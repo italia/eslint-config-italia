@@ -1,7 +1,9 @@
 {
   "name": "eslint-config-emiliosp",
   "version": "1.0.10",
-  "main": "index.js",
+  "main": "./commonjs/index.js",
+  "module": "./esm/index.js",
+  "type": "module",
   "license": "MIT",
   "dependencies": {
     "eslint": "^7.19.0",
