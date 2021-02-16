@@ -1,6 +1,10 @@
 {
   "name": "eslint-config-italia",
+  "description": "ESLint rules for React.js JavaScript projects",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=14"
+  },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -14,5 +18,11 @@
   },
   "peerDependencies": {
     "eslint": "^7.19.0"
+  },
+  "keywords": ["eslint", "italia", "javascript", "react", "eslintconfig"],
+  "homepage": "https://github.com/italia/eslint-config-italia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/italia/eslint-config-italia.git"
   }
 }
