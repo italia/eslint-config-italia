@@ -13,46 +13,44 @@ plugin:sonarjs/recommended
 
 On top of the base config, these rules are applied
 ```
-react-hooks/rules-of-hooks
-react-hooks/exhaustive-deps
-no-case-declarations: "off",
-no-inner-declarations
-prefer-const
-curly: "error
-spaced-comment
-radix: "error,
-one-var
-object-shorthand
-no-var
-no-param-reassign
-no-underscore-dangle
-no-undef-init
-no-throw-literal
-no-new-wrappers
-no-eval
-no-caller
-no-bitwise
-eqeqeq
-max-classes-per-file
-guard-for-in
-complexity
-arrow-body-style
-no-unused-expressions
-semi
-max-lines-per-function
-import/order
-sonarjs/no-duplicate-string
-sonarjs/cognitive-complexity
-sonarjs/no-small-switch
-sonarjs/no-inverted-boolean-check
+"react-hooks/rules-of-hooks": "error"
+"react-hooks/exhaustive-deps": "error"
+"no-case-declarations": "off"
+"no-inner-declarations": "off"
+"prefer-const": "error"
+"curly": "error"
+"spaced-comment": ["error", "always", { "block": { "balanced": true } }]
+"radix": "error"
+"one-var": ["error", "never"]
+"object-shorthand": "error"
+"no-var": "error"
+"no-param-reassign": "error"
+"no-underscore-dangle": "error"
+"no-undef-init": "error"
+"no-throw-literal": "error"
+"no-new-wrappers": "error"
+"no-eval": "error"
+"no-caller": "error"
+"no-bitwise": "error"
+"eqeqeq": ["error", "smart"]
+"max-classes-per-file": ["error", 1]
+"guard-for-in": "error"
+"complexity": "error"
+"arrow-body-style": "error"
+"no-unused-expressions": "off"
+"semi": "off"
+"max-lines-per-function": ["error", 200]
+"import/order": "error"
+"sonarjs/no-duplicate-string": "error"
+"sonarjs/cognitive-complexity": ["error", 19]
+"sonarjs/no-small-switch": "error"
+"sonarjs/no-inverted-boolean-check": "error"
 ```
 
 The styling follows the prettier recommendations plus this custom config
 ```
-{
-  "singleQuote": true,
-  "printWidth": 120
-}
+"singleQuote": true
+"printWidth": 120
 ```
 
 ### 💻 Installation
