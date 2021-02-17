@@ -30,5 +30,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/italia/eslint-config-italia.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "react": "^17.0.1"
   }
 }
