@@ -3,7 +3,7 @@
   "description": "ESLint rules for React.js JavaScript projects",
   "version": "1.0.2",
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "main": "index.js",
   "license": "MIT",
