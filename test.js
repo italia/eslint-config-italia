@@ -18,6 +18,7 @@ describe('eslint-config-italia', () => {
     const code = `const foo = "bar";`;
     const [result] = await eslint.lintText(code);
     const rules = result.messages.map(m => m.ruleId);
-    expect(rules.includes(['no-unused-vars', 'prettier/prettier']));
+    expect(rules.includes('no-unused-vars')).toBeTruthy();
+    expect(rules.includes('prettier/prettier')).toBeTruthy();
   })
 })
